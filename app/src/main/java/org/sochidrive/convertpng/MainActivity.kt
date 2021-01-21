@@ -6,7 +6,6 @@ import moxy.ktx.moxyPresenter
 import org.sochidrive.convertpng.mvp.presenter.MainPresenter
 import org.sochidrive.convertpng.mvp.view.MainView
 import org.sochidrive.convertpng.ui.BackButtonListener
-import org.sochidrive.convertpng.R
 import ru.terrakok.cicerone.android.support.SupportAppNavigator
 
 

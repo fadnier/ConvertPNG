@@ -47,7 +47,7 @@ class ConvertFragment: MvpAppCompatFragment(), ConverterView, BackButtonListener
             action = Intent.ACTION_GET_CONTENT
         }
 
-        startActivityForResult(Intent.createChooser(intent, "Select Picture"), PICK_IMAGE_REQUEST_ID)
+        startActivityForResult(Intent.createChooser(intent, R.string.select_image.toString()), PICK_IMAGE_REQUEST_ID)
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
